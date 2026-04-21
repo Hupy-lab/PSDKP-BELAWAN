@@ -1,0 +1,61 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  background: #e9edf2;
+  font-family: Arial, sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.custom-navbar {
+  background-color: rgb(41, 70, 214);
+}
+
+/* =========================
+   CAROUSEL
+========================= */
+.carousel-inner {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.c-item {
+  height: 500px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+/* =========================
+   TEXT OVERLAY
+========================= */
+.carousel-caption {
+  bottom: 20%;
+}
+
+.carousel-caption h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .c-item {
+    height: 300px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+}
